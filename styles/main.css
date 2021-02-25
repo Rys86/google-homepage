@@ -32,6 +32,10 @@ form {
 	flex-direction: row;
 }
 
+#loupe {
+	width: 52px;
+}
+
 #search-input input {
 	background-color: transparent;
 	border: none;
