@@ -32,7 +32,9 @@ form {
 	flex-direction: row;
 }
 #search-input:hover {
-	box-shadow: 0 0 5px 2px rgba(216, 213, 213, 0.747);
+	background-color: #fff;
+	box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+	border-color: rgba(223, 225, 229, 0);
 }
 
 #loupe {
@@ -57,4 +59,32 @@ form {
 #search-buttons {
 	padding-top: 18px;
 	flex-direction: row;
+}
+
+#search-buttons input {
+	background-color: #f8f9fa;
+	border: 1px solid #f8f9fa;
+	border-radius: 4px;
+	color: #3c4043;
+	font-family: arial, sans-serif;
+	font-size: 14px;
+	margin: 11px 4px;
+	padding: 0 16px;
+	line-height: 27px;
+	height: 36px;
+	min-width: 54px;
+	text-align: center;
+	cursor: pointer;
+	user-select: none;
+}
+
+#search-buttons input:hover {
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+	background-color: #f8f9fa;
+	border: 1px solid #dadce0;
+	color: #202124;
+}
+#search-buttons input:focus {
+	border: 1px solid #4d90fe;
+	outline: none;
 }
