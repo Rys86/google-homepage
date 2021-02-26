@@ -56,5 +56,5 @@ form {
 
 #search-buttons {
 	padding-top: 18px;
-	flex-direction: row-reverse;
+	flex-direction: row;
 }
