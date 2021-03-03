@@ -2,13 +2,10 @@ body {
 	height: 100vh;
 }
 
-header {
-	width: 100%;
-}
-
 footer {
 	width: 100%;
 }
+
 body,
 body div {
 	display: flex;
@@ -87,6 +84,14 @@ form {
 #search-buttons input:focus {
 	border: 1px solid #4d90fe;
 	outline: none;
+}
+
+header div {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: left;
 }
 
 .anchor-link {
