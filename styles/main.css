@@ -86,12 +86,19 @@ form {
 	outline: none;
 }
 
+header {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
 header div {
 	width: 100%;
 	display: flex;
 	flex-direction: row;
 	align-items: center;
 	justify-content: left;
+	height: 48px;
+	padding: 6px;
 }
 
 .anchor-link {
