@@ -105,3 +105,43 @@ header div {
 	width: 24px;
 	height: 24px;
 }
+.anchor-link:focus {
+	outline: none;
+}
+.anchor-text {
+	padding-left: 15px;
+}
+.anchor-text a {
+	color: black;
+	text-decoration: none;
+	font: 13px/27px Roboto, RobotoDraft, Arial, sans-serif;
+}
+
+.anchor-text a:hover {
+	text-decoration: underline;
+}
+
+.anchor-sign-in {
+	border: 1px solid transparent;
+	border-radius: 4px;
+	padding: 9px 23px 9px 23px;
+	height: 36px;
+	width: auto;
+	font: 13px/27px Roboto, RobotoDraft, Arial, sans-serif;
+	text-decoration: none;
+	background: #1a73e8;
+	text-align: center;
+	word-wrap: normal;
+}
+.anchor-sign-in a {
+	text-decoration: none;
+	color: white;
+	width: 44px;
+}
+.anchor-sign-in a:focus {
+	outline: none;
+}
+.anchor-sign-in:hover {
+	box-shadow: 0 1px 2px 0 rgba(66, 133, 244, 0.3),
+		0 1px 3px 1px rgba(66, 133, 244, 0.15);
+}
