@@ -11,6 +11,6 @@
 - Understand how to use classes and ids to target CSS at specific elements on the page
 - Build a very basic form (even if it doesn’t “go” anywhere)
 
-###[Please, click here to check live perview](https://rys86.github.io/google-homepage/)
+### [Please, click here to check live perview](https://rys86.github.io/google-homepage/)
 
 #### Enjoy!
